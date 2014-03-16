@@ -8,7 +8,6 @@ image:
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
-
 I’m a experienced software developer working more than 8 years in different kinds of business and companies like: Software Houses, Consulting Services and Internet.
 
 
