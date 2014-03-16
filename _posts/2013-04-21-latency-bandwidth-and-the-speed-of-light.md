@@ -64,7 +64,7 @@ See below some distances and latency times between some cities of our pretty nic
 | New York to London   | 5,585 km   | 19 ms   | __28 ms__   | 56 ms   |
 |----
 | New York to Sydney   | 15,993 km   | 53 ms    | __80 ms__   | 160 ms   |
-
+{: rules="groups"}
 
 The challenge today is trying to reduce those refractive indexes of the transmission mediums, everyday a little bit more, in this way we will end up more close to the known limit, the speed of light (hard work again boys :) )
 
