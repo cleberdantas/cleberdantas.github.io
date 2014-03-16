@@ -155,8 +155,8 @@ Web browsing is actually the opposite of it, we use short connections and we tra
 Google did two experiments willing to see what would happen if we increase the bandwidth and decrease the latency while web browsing (not videos, not musics). See what happend below:
 
 <figure>
-  <a href="/images/bandwith-vs-latency.png"><img src="/images/bandwith-vs-latency.png"></a>
-  <figcaption><a href="/images/bandwith-vs-latency.png" title="Google's study">Google's study</a>.</figcaption>
+  <a href="/images/bandwidth-vs-latency.png"><img src="/images/bandwidth-vs-latency.png"></a>
+  <figcaption><a href="/images/bandwidth-vs-latency.png" title="Google's study">Google's study</a>.</figcaption>
 </figure>
 
 When we fix latency and increase the bandwidth (Mbps by Mbps), after 5Mbps until 10Mbps the difference is only 15% (helps but not too much), first graphic.
