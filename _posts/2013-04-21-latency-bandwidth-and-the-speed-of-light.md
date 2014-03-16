@@ -58,14 +58,15 @@ The fiber is a very competent medium to transmit light, but we can not compare w
 See below some distances and latency times between some cities of our pretty nice planet earth:
 
 | Route | Distance | Time &#8211; vacuum | Time &#8211; fiber | Round Trip Time (RTT) in fiber |
+|:--------|:-------:|:-------:|:-------:|--------:|
+| New York to San Francisco   | 4,148 km    | 14 ms   | __21 ms__   | 42 ms   |
 |----
-| New York to San Francisco   | 4,148 km   | 14 ms   | __21 ms__   | 42 ms   |
+| New York to London   | 5,585 km   | 19 ms   | __28 ms__   | 56 ms   |
 |----
-| New York to London   | 5,585 km  | 19 ms   | __28 ms__   | 56 ms   |
-|----
-| New York to Sydney  | 15,993 km   | 53 ms   | __80 ms__   | 160 ms   |
-|----
-
+| New York to Sydney   | 15,993 km   | 53 ms    | __80 ms__   | 160 ms   |
+|=====
+| Foot1   | Foot2   | Foot2   | Foot2   | Foot3
+{: rules="groups"}
 
 <table style="width: 100%; border-collapse: collapse;">
 <colgroup>
