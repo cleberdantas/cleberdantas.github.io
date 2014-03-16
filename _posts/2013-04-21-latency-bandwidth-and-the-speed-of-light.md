@@ -8,7 +8,7 @@ What if we increase our bandwidth from 5 Mbps to 10 Mbps, will we double our web
 
 I started this blog post with a question to let you guys answer it in the end of this reading.
 
-Nowadays we face a huge problem in all network systems, that’s basically the speed of a piece of information travels from one point to another. The travel time of a certain information between two different locations is what we call *latency*.
+Nowadays we face a huge problem in all network systems, that’s basically the speed of a piece of information travels from one point to another. The travel time of a certain information between two different locations is what we call _latency_.
 
 Usually the latency time is measured in milliseconds, in most cases. As we aren’t accustomed thinking in milliseconds, below we have a table of some users reactions against some waiting times:
 
@@ -41,11 +41,11 @@ Usually the latency time is measured in milliseconds, in most cases. As we aren�
 </tbody>
 </table>
 
-Clearly if we want all of our user’s attention we need to keep our page response time under *300 milliseconds*. (hard work).
+Clearly if we want all of our user’s attention we need to keep our page response time under _300 milliseconds_. (hard work).
 
-Ok now we know what latency is, but another important concept that we need to know is the *RTT*. RTT stands for the *round trip time* of a certain information between two different locations (latency time multiplied by 2).
+Ok now we know what latency is, but another important concept that we need to know is the _RTT_. RTT stands for the _round trip time_ of a certain information between two different locations (latency time multiplied by 2).
 
-The big problem with latency in fact is that we are already transmitting data *very* fast, and we are bounded by a speed limit also known as the *speed of light*.
+The big problem with latency in fact is that we are already transmitting data _very_ fast, and we are bounded by a speed limit also known as the _speed of light_.
 
 The [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) by definition is equal to 299 792 458 meters per second or 300 000 kilometres per hour (fast, isn’t it?), but this speed is only reached in [vacuum](https://en.wikipedia.org/wiki/Vacuum).
 
@@ -53,7 +53,7 @@ As the perfect vacuum is not possible in our natural environment and the non-per
 
 [Optical fiber](http://en.wikipedia.org/wiki/Optical_fiber) is a reality (no doubts), It’s through this medium that we are sending information around the world today (usually through the oceans).
 
-The fiber is a very competent medium to transmit light, but we can not compare with vacuum at all, which means the no presence of a medium. Every *transmitting medium* has associated with itself a [refractive index](http://en.wikipedia.org/wiki/Refractive_index) and in the case of optical fiber this value is ~1.5.
+The fiber is a very competent medium to transmit light, but we can not compare with vacuum at all, which means the no presence of a medium. Every _transmitting medium_ has associated with itself a [refractive index](http://en.wikipedia.org/wiki/Refractive_index) and in the case of optical fiber this value is ~1.5.
 
 See below some distances and latency times between some cities of our pretty nice planet earth:
 
