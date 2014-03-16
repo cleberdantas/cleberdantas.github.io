@@ -1,9 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
+title: Cleber Dantas
 modified: 9-9-2013
 image:
   feature: texture-feature-02.jpg
@@ -11,19 +9,14 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+I’m a experienced software developer working more than 8 years in different kinds of business and companies like: Software Houses, Consulting Services and Internet.
 
-## Minimal Mistakes is all about:
+My focus is on web development, In the past 5 years I’ve been worked in the entire delivery chain of web applications (from the user’s browsers to the servers behind the load balancers).
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+Performance and scalability are my daily basis concerns, so I need to have this always in mind when developing new stuff ( or perhaps maintain older stuff =) ).
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+I’m also a speaker in different technology community events in Brazil like: MS Dev Day, MsTechDay, MVC Summit, Saturday Fast Code, TechEd Brasil 2011, The Developers Conference 2012 (TDC) and others. You can see more here http://lanyrd.com/profile/cleberdantas/sessions/
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
+As a instructor, I like to teach about web development (ASP.NET MVC, Best Practices, Web Performance techniques and so forth).
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+I’ve attended some great conferences like: QCon Sao Paulo (2011, 2012), QCon London (2011, 2012, 2013), Velocity Conf Europe (Berlin 2011 and London 2012), TecheEd Brasil (2009, 2010, 2011), BrazilJS (2011, 2012), The Developers Conference (2012) and others.
