@@ -51,7 +51,7 @@ Ok now we know what latency is, but another important concept that we need to kn
 
 The big problem with latency in fact is that we are already transmitting data __very__ fast, and we are bounded by a speed limit also known as the __speed of light__.
 
-The [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) by definition is equal to 299 792 458 meters per second or 300 000 kilometres per hour (fast, isn’t it?), but this speed is only reached in [vacuum](https://en.wikipedia.org/wiki/Vacuum).
+The [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) by definition is equal to 299 792 458 meters per second (fast, isn’t it?), but this speed is only reached in [vacuum](https://en.wikipedia.org/wiki/Vacuum).
 
 As the perfect vacuum is not possible in our natural environment and the non-perfect one is really not used in a high scale (only few labs around the world have a vacuum chamber) we will need to use another transmission medium, right? Yes perfect!
 
