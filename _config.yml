@@ -39,8 +39,6 @@ links:
   - title: Posts
     url: /posts/
     external: false
-  - title: Contact
-    url: /mailto@cleberwd@gmail.com
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
