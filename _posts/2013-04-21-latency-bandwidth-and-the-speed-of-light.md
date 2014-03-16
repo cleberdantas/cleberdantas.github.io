@@ -2,6 +2,10 @@
 layout: post
 title: "Latency, bandwidth and the speed of light"
 tags: [web, webperf, latency]
+image:
+  feature: texture-feature-03.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
 
 What if we increase our bandwidth from 5 Mbps to 10 Mbps, will we double our web browsing speed?
