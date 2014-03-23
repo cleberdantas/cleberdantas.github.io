@@ -12,10 +12,10 @@ Today I'll show you 25 functions of 80, I splitted the code samples in this way:
 See below:
 
 ## Collections
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205479.js"></script>
+<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205479.js"></script> <br>
 ## Arrays
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205595.js"></script>
+<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205595.js"></script> <br>
 ## Objects
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205636.js"></script>
+<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205636.js"></script> <br>
 ## Utilities
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205806.js"></script>
+<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205806.js"></script> <br>
