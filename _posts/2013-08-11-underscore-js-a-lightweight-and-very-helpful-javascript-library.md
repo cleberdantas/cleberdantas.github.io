@@ -13,16 +13,16 @@ See below:
 
 ## Collections
 
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205479.js"></script>
+<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205479.js"></script></div>
 
 ## Arrays
 
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205595.js"></script>
+<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205595.js"></script></div>
 
 ## Objects
 
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205636.js"></script> 
+<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205636.js"></script></div>
 
 ## Utilities
 
-<script type="text/javascript" src="https://gist.github.com/cleberdantas/6205806.js"></script>
+<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205806.js"></script></div>
