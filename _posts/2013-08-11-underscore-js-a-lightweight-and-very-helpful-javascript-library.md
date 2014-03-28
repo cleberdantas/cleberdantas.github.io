@@ -73,16 +73,130 @@ console.log(novaLista);
 //>> [8, 2, 14, 4, 20]
 {% endhighlight %}
 
-<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205479.js"></script></div>
-
 ## Arrays
 
-<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205595.js"></script></div>
+{% highlight javascript %}
+//Algumas funcões para trabalhar com Arrays
+ 
+//Os exemplos funcionarão se o underscore.js estiver presente na página =D
+ 
+//Configurado uma lista de números para os exemplos
+var numeros = [4, 1, 7, 2, 10, 2];
+ 
+//Range - Cria uma lista numérica 
+var range = _.range(10); //índice começando em zero
+console.log(range);
+//>> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ 
+//Range - Cria uma lista numérica 
+var range = _.range(1, 11); //índice começando em 1
+console.log(range);
+//>> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ 
+//INDEXOF - Retorna indíce de determinado número no array
+var indice = _.indexOf(numeros, 2);
+console.log(indice);
+//>> 3
+ 
+//LASTINDEXOF - Retorna o último indíce de determinado número no array
+var indice = _.lastIndexOf(numeros, 2);
+console.log(indice);
+//>> 5
+ 
+//DIFFERENCE - Retorna valores do primeiro array que não estao presentes no outro array
+var diferenca = _.difference(numeros, [2, 7, 15, 3]);
+console.log(diferenca);
+//>> [4, 1, 10]
+ 
+//INTERSECTION - Retorna valores que faz intersecção em todos os arrays
+var interseccao = _.intersection(numeros, [2, 7, 15, 3]);
+console.log(interseccao);
+//>> [7, 2]
+ 
+//UNION - Retorna uma lista de valores únicos presentes em todos os arrays
+var union = _.union(numeros, [2, 7, 14, 3]);
+console.log(union);
+//>> [4, 1, 7, 2, 10, 14, 3]
+ 
+//FIRST - Retorna o primeiro valor de um array
+var primeiro = _.first(numeros); //sem parâmetro
+console.log(primeiro);
+//>> 4
+ 
+//FIRST - Retorna os 3 primeiros valores de um array
+var primeiros = _.first(numeros, 3); //com parâmetro
+console.log(primeiros);
+//>> [4, 1, 7]
+ 
+//LAST - Retorna o último valor de um array
+var ultimo = _.last(numeros); //sem parâmetro
+console.log(ultimo);
+//>> 2
+ 
+//LAST - Retorna os 2 ultimos valores de um array
+var ultimos = _.last(numeros, 2); //com parâmetro
+console.log(ultimos);
+//>> [10, 2]
+{% highlight %}
 
 ## Objects
 
-<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205636.js"></script></div>
+{% highlight javascript %}
+//Algumas funcões para trabalhar com objetos
+ 
+//Os exemplos funcionarão se o underscore.js estiver presente na página =D
+ 
+//Configurado um objeto pessoa para os exemplos
+var pessoas = {Nome: 'Cleber', Idade: 26}
+ 
+//KEYS - Retorna só as keys de um objeto
+var keys = _.keys(pessoas); 
+console.log(keys);
+//>> ["Nome", "Idade"]
+ 
+//VALUES - Retorna só os values de um objeto
+var values = _.values(pessoas); 
+console.log(values);
+//>> ["Cleber", 26]
+ 
+//PICK - Retorna um novo objeto somente com os campos definidos
+var objSomenteComNome = _.pick(pessoas, 'Nome');
+console.log(objSomenteComNome);
+//>> Object {Nome: "Cleber"}
+ 
+//OMIT - Inverso do PICK - Retorna um novo objeto removendo os campos definidos
+var objSemNome = _.omit(pessoas, 'Nome');
+console.log(objSemNome);
+//>> Object {Idade: 26}
+{% highlight %}
 
 ## Utilities
+{% highlight javascript %}
+//Algumas funcões utilitarias
+ 
+//Os exemplos funcionarão se o underscore.js estiver presente na página =D
+ 
+//TIMES - Executa n vezes o que estiver contido no bloco de callback
+_.times(2, function(n){
+    console.log(n + ' bla bla'); // indice começa em zero
+}); 
+//>> 0 bla bla
+//>> 1 bla bla
+ 
+//RANDOM - Retorna um número aleatório dentro do range passado, incluindo os números passados.
+var random = _.random(1, 100)
+console.log(random);
+//>> qualquer número entre 1 e 100
+ 
+//ESCAPE - Faz enconding da string passada
+var sentenca = _.escape("Web, etc & tal");
+console.log(sentenca);
+//>> Web, etc &amp; tal
+ 
+//UNESCAPE - Desfaz o enconding da string passada
+var sentenca = _.unescape("Web, etc &amp; tal");
+console.log(sentenca);
+//>> Web, etc & tal
+{% highlight %}
 
-<div><script type="text/javascript" src="https://gist.github.com/cleberdantas/6205806.js"></script></div>
+
