@@ -171,6 +171,7 @@ console.log(objSemNome);
 {% highlight %}
 
 ## Utilities
+
 {% highlight javascript %}
 //Algumas funcões utilitarias
  
