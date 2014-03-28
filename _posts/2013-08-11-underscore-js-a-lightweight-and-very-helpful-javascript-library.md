@@ -137,7 +137,7 @@ console.log(ultimo);
 var ultimos = _.last(numeros, 2); //com parâmetro
 console.log(ultimos);
 //>> [10, 2]
-{% highlight %}
+{% endhighlight %}
 
 ## Objects
 
@@ -168,7 +168,7 @@ console.log(objSomenteComNome);
 var objSemNome = _.omit(pessoas, 'Nome');
 console.log(objSemNome);
 //>> Object {Idade: 26}
-{% highlight %}
+{% endhighlight %}
 
 ## Utilities
 
@@ -198,6 +198,7 @@ console.log(sentenca);
 var sentenca = _.unescape("Web, etc &amp; tal");
 console.log(sentenca);
 //>> Web, etc & tal
-{% highlight %}
+{% endhighlight %}
+
 
 
