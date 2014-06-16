@@ -3,6 +3,9 @@ description:      WebDev http://ASP.NET , WebPerf, Internet, Consulting, Talks, 
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://cleberdantas.github.io
 
+gems:
+  - jekyll-time-to-read
+
 # Owner/author information
 owner:
   name:           Cleber Dantas
