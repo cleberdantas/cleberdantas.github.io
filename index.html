@@ -1,0 +1,22 @@
+---
+layout: layout
+title: "Welcome!"
+image:
+  feature: berlin.jpg
+---
+<div class="container content">
+    <ul class="recent-posts">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <li>
+      <a href="{{ post.url }}">
+      <div>
+        <span class="title">{{ post.title }}</span>
+        <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+      </div>
+   	  </a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</div>

@@ -1,5 +1,6 @@
 ---
 layout: post
+draft: true
 title: "A Post with Images"
 description: "Examples and code for displaying images in posts."
 tags: [sample post, images, test]
