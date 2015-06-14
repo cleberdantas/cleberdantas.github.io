@@ -129,7 +129,7 @@ image:
 <p>O protocolo TCP foi desenhado para transmitir dados em <em>long lived connections </em>(conexões duradouras) e também para <em>bulk data transfer</em> (grandes quantidades de dados).</p>
 <p>Navegar na Web é justamente o oposto, utilizamos conexões curtas e que trafegam poucas quantidades de dados.</p>
 <p>O Google fez dois experimentos visando ver a diferença de se aumentar a largura de banda e também de diminuir a latência e ver o que acontece com a navegação na Web (não vídeos, músicas e etc), veja o que acontece quando aumentamos a largura de banda ou então diminuimos a latência:</p>
-<p><img alt="Page Load Time vs. Bandwidth and Latency" src="http://www.cleberdantas.com/wp-content/uploads/2013/04/bandwidth-vs-latency.png" /></p>
+<p><img alt="Page Load Time vs. Bandwidth and Latency" src="/images/posts/bandwidth-vs-latency.png" /></p>
 <p>Quando fixamos a latência e aumentamos Mbps, depois de 5Mbps a diferença até 10Mbps é de apenas 15% (ajuda, mas nem tanto), primeiro gráfico.</p>
 <p>Por outro lado quando fixamos a banda (nesse caso em 5Mbps) e vamos diminuindo de 20ms em 20ms (segundo gráfico) o ganho se mostra linear! Quanto menos latência maior é a velocidade de carregamento de nossas páginas! (sweet!)</p>
 <p>O estudo do Google pode ser visto aqui: https://docs.google.com/a/chromium.org/viewer?a=v&amp;pid=sites&amp;srcid=Y2hyb21pdW0ub3JnfGRldnxneDoxMzcyOWI1N2I4YzI3NzE2</p>

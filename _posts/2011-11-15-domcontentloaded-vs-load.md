@@ -22,7 +22,7 @@ image:
 <p>Este evento por sua vez é disparado quando TODOS os componentes da página são carregados: Imagens, CSSs, JavaScripts, Frames, Flashs e etc.</p>
 <p>Devemos usar este evento somente quando quisermos fazer algo depois do carregamento COMPLETO da tal página.</p>
 <h2>Exemplo de DOMContentLoaded vs load</h2>
-<p><a href="http://www.cleberdantas.com/wp-content/uploads/2011/11/DOM_LOAD.jpg"><img class="aligncenter size-full wp-image-158" title="DOM_LOAD" src="http://www.cleberdantas.com/wp-content/uploads/2011/11/DOM_LOAD.jpg" alt="" width="584" height="393" /></a><br />
+<p><img class="aligncenter size-full wp-image-158" title="DOM_LOAD" src="/images/posts/DOM_LOAD.jpg" alt="" width="584" height="393" /><br />
 Tirei a imagem acima do FireBug uma extensão do Firefox.</p>
 <p>Perceba duas linhas verticais uma azul e outra vermelha, que representam os eventos DOMContentLoaded e load respectivamente. No tooltip ainda conseguimos ver a quantidade de tempo que se passou até que esses eventos fossem disparados, interessante não?</p>
 <p>Quanto mais perto uma linha da outra mais rápido sua página esta sendo carregada!</p>
