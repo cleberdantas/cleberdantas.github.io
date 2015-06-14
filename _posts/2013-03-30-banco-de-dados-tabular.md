@@ -1,0 +1,18 @@
+---
+layout: post
+title: Banco de dados tabular
+tags: [nosql]
+categories: [posts]
+image:
+  feature: texture-feature-05.jpg
+---
+<p>Hoje muito se fala de <a title="NOSQL" href="http://pt.wikipedia.org/wiki/NoSQL" target="_blank">NOSQL</a> (Not Only SQL) com um claro objetivo (pelo menos pra mim) que basicamente diz que nós não deveríamos colocar *TODO* o nosso dado em um banco de dados relacional (afinal como a galera anda dizendo, não existe bala de prata certo?), ou seja, é pensar mais na característica do nosso dado e tentar armazená-lo em um data store, digamos, mais apropriado. (<a title="Persistência poliglota?" href="http://martinfowler.com/bliki/PolyglotPersistence.html" target="_blank">Persistência poliglota?</a>).</p>
+<p>O que percebo na realidade é que as pessoas não entendem isso muito bem, não entendem o &#8220;NOSQL&#8221; (eu mesmo não entendia). Já fui a diversos eventos de tecnologia onde o tema foi abordado e sempre saia confuso, tentando encaixar o que alí tinha sido dito com a minha realidade, e de fato percebia o mesmo na cara dos demais e confirmava quando conversava com essas pessoas.</p>
+<p>O problema é que sempre conseguimos encaixar tudo (qualquer tipo de dado) em um modelo relacional (em um banco de dados relacional) e sendo assím ficamos no mínimo ressabiados com qualquer abordagem &#8220;não relacional&#8221;, afinal foi o modelo relacional que aprendemos na escola e que sempre nos foi passado como &#8220;o cara&#8221;, são 40 anos utilizando este modelo ele realmente deve ser infalível (só que não).</p>
+<p>Acredito que um ponto importante para toda essa dificuldade em entender ou aceitar modelos diferentes de dados esteja de fato no magnifico nome &#8220;<strong>banco de dados relacional</strong>&#8220;, embora não seja um nome errado isso gera confusão e um forte apego.</p>
+<p>Os bancos de dados relacionais são baseados na <a title="teoria de conjuntos" href="http://pt.wikipedia.org/wiki/Teoria_dos_conjuntos" target="_blank">teoria de conjuntos</a>, lembram disso? Quem na faculdade não teve aquela famosa disciplina chamada <a title="álgebra relacional" href="http://pt.wikipedia.org/wiki/%C3%81lgebra_relacional" target="_blank">álgebra relacional</a> (forma de cálculo sobre conjuntos ou <strong>relações</strong>)? Tuplas, atributos, relacões&#8230; lembram??</p>
+<p>Pois é o &#8220;relacional&#8221; dos bancos de dados relacionais não vem de <strong>relacionamentos</strong> e sim das relações, dos conjuntos ou como chamamos de maneira mais &#8220;moderna&#8221; das <strong>tabelas</strong>, é um banco de dados de tabelas onde aplicamos operações como: união, intersecção, diferença, produto cartesiano etc etc etc.</p>
+<p>E se pensarmos como tal, deveríamos então deixar como responsabilidade para estes bancos de dados apenas dados com esta característica, dados tabulares.</p>
+<p>Você já tentou modelar um domínio altamente conectado (tipo uma comunidade de pessoas) em um banco de dados relacional? Eu já e sofri com isso, modelar a gente modela certo? Tira as redundancias de dados (<a title="formas normais" href="http://pt.wikipedia.org/wiki/Normaliza%C3%A7%C3%A3o_de_dados" target="_blank">formas normais</a>) e vai embora, mas e para tirar o dado de lá de dentro? Pois é, só sofrimento não é?.</p>
+<p>Então vamos deixar a cargo dos bancos de dados relacionais o que eles são bons em tratar, dados tabulares, e vamos buscar outras alternativas para dados com outras características, beleza? Bora estudar meu povo! =D</p>
+<p>Ahhh se tivessem me ensinando como <strong>banco de dados tabular </strong>eu não teria sofrido tanto&#8230; certamente não.</p>
