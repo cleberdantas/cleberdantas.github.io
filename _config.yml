@@ -5,6 +5,7 @@ rdiscount:
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 name: Cleber Dantas
 url: http://www.cleberdantas.com

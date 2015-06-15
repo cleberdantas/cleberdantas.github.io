@@ -5,6 +5,7 @@ tags: [front-end, javascript]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2013/08/underscore-js-biblioteca-leve-e-muito-util/
 ---
 <p>O <a title="Underscore.js" href="http://underscorejs.org/" target="_blank">Underscore.js</a> é uma biblioteca javascript bem leve e muito útil, com apenas 5KB (quando minificada e &#8220;gzipada&#8221;) ela nos fornece cerca de 80 funções para se trabalhar com estruturas de dados e coleções em javascript (coisa que a linguagem por sí só pouco suporta).</p>
 <p>Se você é um desenvolvedor .NET/ASP.NET vai perceber que parece um &#8220;LinqToSQL&#8221; para javascript. (O que é sensacional, pelo menos pra mim)</p>

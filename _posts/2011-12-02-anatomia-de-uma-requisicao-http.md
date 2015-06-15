@@ -5,6 +5,7 @@ tags: [front-end, http, wpo]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2011/12/anatomia-de-uma-requisicao-http/
 ---
 <p>Precisamos conhecer exatamente como as coisas acontecem por debaixo dos panos, só assim conseguiremos otimizar nossas páginas e deixar nossos usuários felizes.</p>
 <p>Muitos fatores podem afetar a performance de uma página, largura de banda, distância entre o cliente e o servidor, tamanho e quantidade de elementos em uma página, como esses elementos são carregados e etc.</p>

@@ -5,6 +5,7 @@ tags: [front-end, webdev]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2011/11/cuidado-com-os-cookies-cookie-free-domains/
 ---
 <p>Post rápido prometo. Piadinhas de cookie a parte a coisa é bem séria.</p>
 <p>É muito comum nós Web Developers guardarmos informações em cookie(s) no(s) browser(s) do(s) usuário(s), certo? Sim certo!</p>

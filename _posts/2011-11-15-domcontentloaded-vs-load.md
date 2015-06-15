@@ -5,6 +5,7 @@ tags: [front-end, webdev]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2011/11/domcontentloaded-vs-load/
 ---
 <p>Olá pessoal,</p>
 <p>Resolvi escrever este pequeno post para explicar a diferença entre dois (famosos) eventos que são disparados quando uma página é carregada, são eles:</p>

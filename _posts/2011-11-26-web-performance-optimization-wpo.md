@@ -5,6 +5,7 @@ tags: [webperf, front-end, mercado, wpo]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2011/11/web-performance-optimization-wpo/
 ---
 <p>A cada dia novas startups surgem com idéias inovadoras em ramos diferentes, mas o que todas elas têm em comum é que normalmente praticamente toda sua operação e infraestrutura vivem na Web, a “lojinha”, o “ganha pão” está e somente é acessível através de uma URL.</p>
 <p>Isto requer um investimento menor já que é mais barato no começo criar um site do que montar por exemplo uma loja física (comparando a outros negócios).</p>

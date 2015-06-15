@@ -5,6 +5,7 @@ tags: [front-end, wpo]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2015/01/above-the-fold-css/
 ---
 <p>Como CSS <strong>é</strong> render blocking quanto menos bytes precisarmos para baixa-lo melhor.</p>
 <p>Idealmente deveríamos tentar ter tudo o que é necessário para a primeira renderização em até ~14KB, que é quanto mais ou menos se pode transferir em uma única conexão TCP diretamente sem precisar de um ACK do client, ou seja em apenas uma conexão estabelecida com o server e depois de alguns poucos pacotes recebidos já teremos tudo necessário para botar pixels na tela.</p>

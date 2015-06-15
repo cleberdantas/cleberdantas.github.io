@@ -5,6 +5,7 @@ tags: [nosql]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2013/03/banco-de-dados-tabular/
 ---
 <p>Hoje muito se fala de <a title="NOSQL" href="http://pt.wikipedia.org/wiki/NoSQL" target="_blank">NOSQL</a> (Not Only SQL) com um claro objetivo (pelo menos pra mim) que basicamente diz que nós não deveríamos colocar *TODO* o nosso dado em um banco de dados relacional (afinal como a galera anda dizendo, não existe bala de prata certo?), ou seja, é pensar mais na característica do nosso dado e tentar armazená-lo em um data store, digamos, mais apropriado. (<a title="Persistência poliglota?" href="http://martinfowler.com/bliki/PolyglotPersistence.html" target="_blank">Persistência poliglota?</a>).</p>
 <p>O que percebo na realidade é que as pessoas não entendem isso muito bem, não entendem o &#8220;NOSQL&#8221; (eu mesmo não entendia). Já fui a diversos eventos de tecnologia onde o tema foi abordado e sempre saia confuso, tentando encaixar o que alí tinha sido dito com a minha realidade, e de fato percebia o mesmo na cara dos demais e confirmava quando conversava com essas pessoas.</p>

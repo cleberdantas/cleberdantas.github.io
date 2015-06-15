@@ -5,6 +5,7 @@ tags: [wpo, webperf]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2013/04/latencia-largura-de-banda-e-a-velocidade-da-luz/
 ---
 <p>Será que se aumentarmos a banda da nossa internet de 5Mbps para 10Mbps teremos o dobro de velocidade na navegação de páginas na Web?</p>
 <p>Comecei esse post com uma pergunta de propósito e espero que você possa responder essa questão ao final da leitura.</p>

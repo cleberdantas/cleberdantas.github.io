@@ -5,6 +5,7 @@ tags: [web, webperf, HTTP]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2011/10/o-porque-nao-utilizar-get-para-alterar-estado-no-servidor/
 ---
 <p>Olá pessoal,</p>
 <p>É muito comum (ainda) desenvolvedores Web utilizarem os verbos Http Get e Post de maneira meio que &#8220;indiscriminada&#8221; para acessarem e/ou buscarem recursos no servidor Web, e digo isso independentemente da tecnologia de servidor que esta sendo utilizada (PHP, ASP.NET, JSF, Rails, Django e etc).</p>

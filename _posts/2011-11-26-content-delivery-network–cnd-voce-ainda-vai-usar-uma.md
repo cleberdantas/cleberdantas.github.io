@@ -5,6 +5,7 @@ tags: [http, wpo]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2011/11/content-delivery-network-cdn-voce-ainda-vai-usar-uma/
 ---
 <p>Uma <strong>CDN </strong>(<strong>Content Delivery Network</strong>) é uma rede de computadores distribuídos geograficamente com cópias de conteúdos a serem acessados.</p>
 <p>A CDN tem dois grandes objetivos o primeiro é tornar mais próximo o conteúdo que esta sendo distribuído e solicitado (Imagens, Stylesheets, Scripts, Flashs, Músicas, PDF’s e etc) dos usuários assim diminuindo o tempo de resposta e latência destes componentes, o segundo é diminuir custos com banda/tráfego de dados (do site que esta utilizando a CDN) e por conseqüência diminuir a quantidade de requisições diretas ao servidor real do site desafogando e muito a infra “local”.</p>

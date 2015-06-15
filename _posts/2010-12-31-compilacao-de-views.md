@@ -5,6 +5,7 @@ tags: [asp.net, vídeo]
 categories: [posts]
 image:
   feature: texture-feature-05.jpg
+redirect_from: /2010/12/compilacao-de-views-no-asp-net-mvc/
 ---
 Para não passar 2010 em branco sem nenhum vídeo técnico segue uma dica sobre ASP.NET MVC bem útil (eu acho ;D), espero que gostem!
 
