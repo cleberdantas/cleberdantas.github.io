@@ -6,6 +6,7 @@ image:
 <div class="container content">
   <div class="date">
     {{ page.date | date: "%B %e, %Y" }}
+    {% include read_time.html %}
   </div>
 {{ content }}
 <hr />
