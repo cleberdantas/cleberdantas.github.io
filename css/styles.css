@@ -184,8 +184,8 @@ header .logo:hover {
     padding: 10px 15px;
     color: #1a898a;
     font-size: .75rem;
-    font-family: "AvenirNextLTW01-Italic", "Avenir Next", sans-serif;
-    font-style: normal
+    font-family: "Open Sans", sans-serif;
+    font-style: italic
 }
 
 .hero {
@@ -252,8 +252,8 @@ header .logo:hover {
     color: rgba(0,0,0,0.2);
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: normal;
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif
 }
 
 .closing .bio a {
@@ -312,14 +312,15 @@ header .logo:hover {
 
 html {
     font-size: 16px;
-    font-family: "AvenirNextLTW01-Regular", "Avenir Next", sans-serif;
-    line-height: 1.6
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    color: #444;
 }
 
 h1,h2,h3,h4,h5,h6,b,strong {
     color: #3f9bd1;
     font-weight: bold;
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif
+    font-family: "Open Sans", sans-serif
 }
 
 b,strong {
@@ -327,13 +328,13 @@ b,strong {
 }
 
 strong em {
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
-    font-style: italic
+    font-family: "Open Sans", sans-serif;
+    font-style: bold
 }
 
 em,i {
-    font-family: "AvenirNextLTW01-Italic", "Avenir Next", sans-serif;
-    font-style: normal
+    font-family: "Open Sans", sans-serif;
+    font-style: italic
 }
 
 a {
@@ -341,8 +342,8 @@ a {
 }
 
 header li {
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
-    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
     font-size: 15px
 }
 
@@ -368,8 +369,7 @@ header h1.compressed {
 }
 
 .content .date {
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
-    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     font-weight: bold;
 }
@@ -403,8 +403,8 @@ header h1.compressed {
 }
 
 footer {
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
-    font-weight: normal
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold
 }
 
 @media (min-width: 38em) {
