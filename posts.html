@@ -1,0 +1,42 @@
+---
+layout: layout
+title: "Olá! Seja bem-vindo!"
+image:
+  feature: berlin.jpg
+redirect_from: /posts/
+---
+<div class="container content">
+    <ul class="recent-posts">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <li>
+      <a href="{{ post.url }}">
+      <div>
+        <span class="title">{{ post.title }}</span>
+        <span class="date">
+        {% assign m = post.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}Janeiro
+          {% when '2' %}Fevereiro
+          {% when '3' %}Março
+          {% when '4' %}Abril
+          {% when '5' %}Maio
+          {% when '6' %}Junho
+          {% when '7' %}Julho
+          {% when '8' %}Agosto
+          {% when '9' %}Setembro
+          {% when '10' %}Outubro
+          {% when '11' %}Novembro
+          {% when '12' %}Dezembro
+        {% endcase %}
+        de
+        {{ post.date | date: "%Y" }}</span>
+      </div>
+   	  </a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+  <hr />
+Que tal <a href="http://cleberdantas.us8.list-manage1.com/subscribe?u=d725ade92751c32145ea92d88&id=501d6bf7aa">se cadastrar</a> e receber novidades diretamente em seu email?
+</div>
