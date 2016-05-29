@@ -1,37 +1,41 @@
 ---
 layout: layout
-title: "Auditoria de Performance Web"
+title: "Olá! Seja bem-vindo!"
 image:
-  feature: service.jpg
+  feature: berlin.jpg
+redirect_from: /posts/
 ---
 <div class="container content">
-<p>Site demorando para carregar? Concorrente mais rápido? Baixa conversão?</p>
-<p>Talvez esteja precisando de uma ajuda profissional. Que tal conhecer nosso serviço de <b>auditoria de performance</b> remota?</p>
-<h2>Auditoria de Performance Web</h2>
-<p>Nosso serviço de auditoria de performance Web foi feito para ajudar você e sua empresa a identificar problemas de performance em seu web site. Você terá um especialista em aplicações web de alta performance analisando o seu site remotamente e por um preço acessível.</p>
-<p>Nosso serviço inclui:</p>
-<ul>
-	<li>Análise</li>
-	<li>Recomendacões</li>
-	<li>Plano de ação</li>
-	<li>Vídeo</li>
-	<li>Sessão de follow-up</li>
-	<li>Garantia de dinheiro de volta</li>
-</ul>
-<h2>Análise</h2>
-<p>Analisaremos até 3 páginas do seu web site (você escolhe) com as melhores ferramentas do mercado, nosso foco será sempre analisar os problemas atuais de performance de suas páginas e o porque esses problemas estão acontecendo.</p>
-<h2>Recomendacões</h2>
-<p>Faremos recomendações gerais e específicas ao seu cenário, mostrando o que podería melhorar e te explicaremos o porque de todas essas recomendações.</p>
-<h2>Plano de ação</h2>
-<p>Vamos montar um plano de ação para você e seu time, sempre priorizando ações e tarefas que gerarão impactos imediato a performance do seu web site.</p>
-<h2>Vídeo</h2>
-<p>Vamos gravar um vídeo com a investigação que fizemos em seu web site, comentaremos os pontos mais importantes e mostraremos como descobrimos os seus problemas de performance.</p>
-<h2>Sessão de follow-up</h2>
-<p>Faremos uma sessão de follow-up com você e o seu time. Via email, chat ou vídeo conferência. Aqui você poderá tirar suas dúvidas sobre nossa análise, recomendações e plano de ação.</p>
-<h2>Garantia de dinheiro de volta</h2>
-<p>Não gostou do resultado do nosso serviço? Não tem problema, devolveremos o seu dinheiro se você quiser e nem perguntaremos o porque, pode confiar.</p>
-<h2>Como posso agendar minha auditoria de performance?</h2>
-<p>Entre em <a href="mailto:cleberwd@gmail.com?subject=Auditoria de Performance Web">contato comigo</a> e me conte um pouco sobre o seu projeto. Vou ficar feliz em poder te ajudar, pode contar comigo :)</p>
+    <ul class="recent-posts">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <li>
+      <a href="{{ post.url }}">
+      <div>
+        <span class="title">{{ post.title }}</span>
+        <span class="date">
+        {% assign m = post.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}Janeiro
+          {% when '2' %}Fevereiro
+          {% when '3' %}Março
+          {% when '4' %}Abril
+          {% when '5' %}Maio
+          {% when '6' %}Junho
+          {% when '7' %}Julho
+          {% when '8' %}Agosto
+          {% when '9' %}Setembro
+          {% when '10' %}Outubro
+          {% when '11' %}Novembro
+          {% when '12' %}Dezembro
+        {% endcase %}
+        de
+        {{ post.date | date: "%Y" }}</span>
+      </div>
+   	  </a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
 <hr />
-<p>Quer saber mais sobre Web Performance? Cadastre-se em nosso curso de 5 dias grátis via email. Está bem aí do lado inferior direito da página :)</p>
 </div>
