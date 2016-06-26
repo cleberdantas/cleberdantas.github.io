@@ -50,10 +50,13 @@ Acho que nunca vi uma resposta marcada como `public`, somente de configurar o `m
 ```
 Cache-Control: no-cache
 ```
+
 ou
+
 ```
 Cache-Control: no-store
 ```
+
 Bem, como você deve imaginar quando marcamos uma resposta como `no-cache` isso quer dizer **é claro** que não estamos permitindo que essa resposta seja cacheada, certo? **E R R A D O**! Na verdade isso é exatamente o que o `no-store` faz.
 
 `no-store` diz ao cliente e aos proxies intermediários que essa resposta não deve ser cacheada de jeito nenhum!
