@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTTP Caching
+title: HTTP Caching e a sopa de letrinhas
 tags: [wpo, caching, http, performance, perfmatters]
 categories: [posts]
 image:
