@@ -3,6 +3,11 @@
 {% include head.html %}
 <body>
 <header>
+    <script type="text/javascript">
+        var host = "getfaster.com.br";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
     <div class="logo">
       <a href="/" class="titlesite">GF</a>
     </div>  
@@ -15,6 +20,7 @@
           {% endif %}           
       </div>
     {% endif %}
+    <link rel="canonical" href="{{ site.url }} {{ page.url}}" />
   </header>
 <div class="container menu">
     <ul>
