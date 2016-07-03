@@ -4,7 +4,7 @@ title: Debugando Rotas no ASP.NET MVC
 tags: [asp.net]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/09/debugando-rotas-no-asp-net-mvc/
 ---
 <p>Quem trabalha com ASP.NET MVC sabe o quanto as rotas são importantes para o correto funcionamento das aplicações, as rotas tem um papel fundamental e são delas que o Framework extrai informações para construção de Controllers e para o acionamento de Actions.</p>

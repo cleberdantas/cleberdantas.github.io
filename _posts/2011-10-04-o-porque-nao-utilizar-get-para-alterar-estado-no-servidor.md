@@ -4,7 +4,7 @@ title: O porquê não utilizar GET para alterar estado no servidor
 tags: [web, webperf, HTTP]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/10/o-porque-nao-utilizar-get-para-alterar-estado-no-servidor/
 ---
 <p>Olá pessoal,</p>

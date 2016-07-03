@@ -4,7 +4,7 @@ title: DOMContentLoaded vs load
 tags: [front-end, webdev]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/11/domcontentloaded-vs-load/
 ---
 <p>Olá pessoal,</p>

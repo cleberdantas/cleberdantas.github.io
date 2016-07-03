@@ -4,7 +4,7 @@ title: HTTP Caching e a sopa de letrinhas
 tags: [wpo, caching, http, performance, perfmatters]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 ---
 
 Este post é um oferecimento de: **Ociosidade antes do último episódio da sexta temporada de Game of Thrones**.

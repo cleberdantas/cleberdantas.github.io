@@ -4,7 +4,7 @@ title: Http Modules e Http Handlers
 tags: [Core, MVC, Web Forms]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/09/http-modules-e-http-handlers/
 ---
 <p>Resolvi escrever este post para explicar o que são os tão conhecidos porém as vezes não entendidos <strong>Http Modules</strong> e <strong>Http Handlers</strong>, estes dois players na infraestrutura do ASP.NET fazem basicamente tudo acontecer.</p>

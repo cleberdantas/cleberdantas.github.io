@@ -4,7 +4,7 @@ title: Cuidado com os Cookies, use cookie-free domains
 tags: [front-end, webdev]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/11/cuidado-com-os-cookies-cookie-free-domains/
 ---
 <p>Post rápido prometo. Piadinhas de cookie a parte a coisa é bem séria.</p>

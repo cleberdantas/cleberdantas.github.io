@@ -4,7 +4,7 @@ title: Anatomia de uma requisição HTTP
 tags: [front-end, http, wpo]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/12/anatomia-de-uma-requisicao-http/
 ---
 <p>Precisamos conhecer exatamente como as coisas acontecem por debaixo dos panos, só assim conseguiremos otimizar nossas páginas e deixar nossos usuários felizes.</p>

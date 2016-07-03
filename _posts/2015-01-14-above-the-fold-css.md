@@ -4,7 +4,7 @@ title: Above-the-Fold CSS
 tags: [front-end, wpo]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2015/01/above-the-fold-css/
 ---
 <p>Como CSS <strong>é</strong> render blocking quanto menos bytes precisarmos para baixa-lo melhor.</p>

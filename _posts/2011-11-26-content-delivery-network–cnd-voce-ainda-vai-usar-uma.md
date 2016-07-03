@@ -4,7 +4,7 @@ title: Content Delivery Network – CDN, Você ainda vai usar uma
 tags: [http, wpo]
 categories: [posts]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
 redirect_from: /2011/11/content-delivery-network-cdn-voce-ainda-vai-usar-uma/
 ---
 <p>Uma <strong>CDN </strong>(<strong>Content Delivery Network</strong>) é uma rede de computadores distribuídos geograficamente com cópias de conteúdos a serem acessados.</p>

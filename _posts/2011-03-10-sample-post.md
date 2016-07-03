@@ -7,7 +7,7 @@ modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 categories: [aspnet]
 image:
-  feature: texture-feature-05.jpg
+  feature: service.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
