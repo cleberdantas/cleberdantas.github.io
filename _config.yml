@@ -7,8 +7,8 @@ gems:
   - jekyll-redirect-from
 
 name: Cleber Dantas
-url: https://getfaster.com.br
-enforce_ssl: getfaster.com.br
+url: https://getfaster.io
+enforce_ssl: getfaster.io
 description: WebDev, WebPerf, Internet, Consulting, Talks, Training, Blog
 title: Web, Etc e Tal
 twitter: cleberdantas
