@@ -3,11 +3,6 @@
 {% include head.html %}
 <body>
 <header>
-    <script type="text/javascript">
-        var host = "getfaster.com.br";
-        if ((host == window.location.host) && (window.location.protocol != "https:"))
-            window.location.protocol = "https";
-    </script>
     <div class="logo">
       <a href="/" class="titlesite">GF</a>
     </div>  
@@ -59,5 +54,33 @@
     s.parentNode.insertBefore(dc, s);
   })();
 </script>
+<script>
+function showToast(text) {
+  el = document.querySelector('#toast')
+  el.innerText = text;
+  el.style.display = 'block';
+
+  var player = el.animate([
+    {opacity: 0.5},
+    {opacity: 1},
+    {opacity: 1},
+    {opacity: 1},
+    {opacity: 1},
+    {opacity: 0.5},
+    {opacity: 0.0},
+  ], {
+    duration: 6000,
+    iterations: 1,
+    delay: 0
+  });
+
+  player.onfinish = function() {
+    el.style.display = 'none';
+  }
+}
+</script>
+<div id="toast">
+    &nbsp;
+</div>
 </body>
 </html>
