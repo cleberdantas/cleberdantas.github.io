@@ -40,45 +40,6 @@
   })();
 
 </script>
-<!-- Drip -->
-<script type="text/javascript">
-  var _dcq = _dcq || [];
-  var _dcs = _dcs || {}; 
-  _dcs.account = '3789269';
-  
-  (function() {
-    var dc = document.createElement('script');
-    dc.type = 'text/javascript'; dc.async = true; 
-    dc.src = '//tag.getdrip.com/3789269.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(dc, s);
-  })();
-</script>
-<script>
-function showToast(text) {
-  el = document.querySelector('#toast')
-  el.innerText = text;
-  el.style.display = 'block';
-
-  var player = el.animate([
-    {opacity: 0.5},
-    {opacity: 1},
-    {opacity: 1},
-    {opacity: 1},
-    {opacity: 1},
-    {opacity: 0.5},
-    {opacity: 0.0},
-  ], {
-    duration: 6000,
-    iterations: 1,
-    delay: 0
-  });
-
-  player.onfinish = function() {
-    el.style.display = 'none';
-  }
-}
-</script>
 <div id="toast">
     &nbsp;
 </div>
