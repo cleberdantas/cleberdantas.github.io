@@ -9,7 +9,7 @@ image:
 
 Já se perguntou o que quer dizer aquele **Wating TTFB** nas suas requisições lá no Chrome Dev Tools? Vou explicar o que é isso neste post.
 
-<div style="width:360px;margin:auto">
+<div style="width:340px;margin:auto">
 <img src="/images/posts/ttfb.png" alt="Wating TTFB" />
 </div>
 
