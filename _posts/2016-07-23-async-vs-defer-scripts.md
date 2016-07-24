@@ -45,7 +45,7 @@ Agora quando uma tag script possuí o atributo `defer` o download desse script �
 
 `<script async defer src="a.js"></script>`
 
-Você ainda pode colocar os dois atributos se quiser, neste caso se o browser suporta os dois o `async` tem preferência.
+Você ainda pode colocar os dois atributos se quiser, neste caso se o browser suportar os dois o `async` tem preferência.
 
 
 
